@@ -43,7 +43,7 @@ The goal was to identify genes that are significantly differentially expressed i
 
 ## Volcano Plot
 
-![Volcano Plot](figures/valcano_plot.png)
+![Volcano Plot](figures/volcano_plot.png)
 
 ### Heatmap
 
@@ -57,11 +57,14 @@ The goal was to identify genes that are significantly differentially expressed i
 - Exported complete and filtered results for downstream analyses.
 
 ## Repository Structure
+
+```text
 data/
 figures/
 outputs/
 scripts/
 README.md
+```
 
 ## Future Directions
 
