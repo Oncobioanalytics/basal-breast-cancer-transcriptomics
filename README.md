@@ -16,26 +16,26 @@ The goal was to identify genes that are significantly differentially expressed i
 
 ## Sample Groups:
 
--Basal tumors
--HER2 tumors
--Luminal A tumors
--Luminal B tumors
--Normal breast tissue
+- Basal tumors
+- HER2 tumors
+- Luminal A tumors
+- Luminal B tumors
+- Normal breast tissue
 
 **Data Source:**  NCBI Gene Expression Omnibus (GEO)
 
 ## Methods:
 
--Downloaded expression data using GEOquery.
--Extracted expression and phenotype information.
--Classified samples according to tumor subtype.
--Compared basal breast tumors with normal breast tissue.
--Performed differential expression analysis using the limma framework.
--Applied False Discovery Rate (FDR) correction for multiple testing.
+- Downloaded expression data using GEOquery.
+- Extracted expression and phenotype information.
+- Classified samples according to tumor subtype.
+- Compared basal breast tumors with normal breast tissue.
+- Performed differential expression analysis using the limma framework.
+- Applied False Discovery Rate (FDR) correction for multiple testing.
 
 ## Defined significant genes using:
--Adjusted P-value < 0.05
--Absolute log2 fold change > 1
+- Adjusted P-value < 0.05
+- Absolute log2 fold change > 1
 
 ## Generated volcano plot and heatmap visualizations.
 
@@ -43,14 +43,18 @@ The goal was to identify genes that are significantly differentially expressed i
 
 ## Volcano Plot
 
+![Volcano Plot](figures/valcano_plot.png)
+
 ### Heatmap
+
+![Heatmap](figures/heatmap_top_genes.png)
 
 ## Key Findings:
 
--Identified genes significantly associated with basal breast cancer.
--Visualized differential expression patterns using a volcano plot.
--Generated a heatmap of the top differentially expressed genes.
--Exported complete and filtered results for downstream analyses.
+- Identified genes significantly associated with basal breast cancer.
+- Visualized differential expression patterns using a volcano plot.
+- Generated a heatmap of the top differentially expressed genes.
+- Exported complete and filtered results for downstream analyses.
 
 ## Repository Structure
 data/
@@ -63,8 +67,8 @@ README.md
 
 Potential extensions of this project include:
 
--Gene Ontology (GO) enrichment analysis
--KEGG pathway analysis
--Validation using independent datasets
--RNA-seq based differential expression analysis
--Integration with clinical outcome data
+- Gene Ontology (GO) enrichment analysis
+- KEGG pathway analysis
+- Validation using independent datasets
+- RNA-seq based differential expression analysis
+- Integration with clinical outcome data
